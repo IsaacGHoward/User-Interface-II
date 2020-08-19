@@ -111,20 +111,25 @@ footer{
 }
 
 @media only screen and (max-width: 800px) {
-    body {
-      background-color: lightblue;
-    }
     img{
         width:80%;
     }
     .projects img{
         width:35%;
-        
+    }
+    .description{
+        font-size: 2.5vw;
     }
     
   }
-@media only screen and (max-width: 500px) {
-    body {
-      background-color: orange;
+@media only screen and (max-width: 586px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
     }
   }
+/* Stretch goal: works with all specified screen sizes (iphone, laptop, widescreen) */
