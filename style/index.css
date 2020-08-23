@@ -114,11 +114,17 @@ footer{
     img{
         width:80%;
     }
+    .projects{
+        flex-wrap: wrap;
+        width: 80%;
+    }
     .projects img{
-        width:35%;
+        width:50%;
     }
     .description{
-        font-size: 2.5vw;
+        font-size: 2em;
+        width: 80%;
+        padding: 2%;
     }
     
   }
@@ -131,5 +137,13 @@ footer{
         width: 100%;
         text-align: center;
     }
+    h2{
+        font-size: 4.5vw;
+        text-align:center;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    
   }
 /* Stretch goal: works with all specified screen sizes (iphone, laptop, widescreen) */
